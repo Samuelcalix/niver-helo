@@ -1,0 +1,174 @@
+body {
+  text-align: center;
+  background: linear-gradient(135deg, #fdeff2, #f8cde8, #f4a5c2);
+  height: 100vh;
+  font-family: Arial, sans-serif;
+  overflow: hidden;
+}
+
+.container {
+  margin-top: 50px;
+}
+
+.mea-culpa-regular {
+  font-family: "Mea Culpa", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.teko {
+  font-family: "Teko", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+
+#titulo {
+  font-size: 70px;
+  font-family: "Teko", sans-serif;
+  color: rgb(159, 12, 12);
+  animation: piscar 2s infinite;
+  margin-bottom: 0px;
+}
+
+#nome {
+  font-family: "Mea Culpa", cursive;
+  font-size: 120px;
+  color: rgb(158, 2, 80);
+  text-shadow: 4px 4px 10px rgba(255, 0, 128, 0.6);
+  margin-top: 0px;
+  animation: neonPiscar 1.5s infinite alternate;
+}
+
+@keyframes piscar {
+  0%,
+  50%,
+  100% {
+    opacity: 1;
+  }
+  25% {
+    opacity: 0.75;
+  }
+  75% {
+    opacity: 0.5;
+  }
+}
+
+/* 🔹 Área das fotos estilo Polaroid */
+.photo-wall {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+
+.photo {
+  width: 140px;
+  height: 140px;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+  padding: 10px;
+  transform: rotate(var(--rotation));
+  transition: box-shadow 0.5s ease-in-out;
+  overflow: hidden;
+}
+
+.photo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 5px;
+  opacity: 1;
+  transition: opacity 1s ease-out;
+}
+
+.photo:nth-child(1) {
+  --rotation: -5deg;
+}
+.photo:nth-child(2) {
+  --rotation: 3deg;
+}
+.photo:nth-child(3) {
+  --rotation: -2deg;
+}
+.photo:nth-child(4) {
+  --rotation: 4deg;
+}
+
+/* ✨ Efeito de brilho alternado */
+.brilho {
+  box-shadow: 0 0 20px rgba(255, 0, 128, 0.8);
+}
+
+/* 📱 Responsividade */
+@media (max-width: 768px) {
+  #titulo {
+    font-size: 50px;
+  }
+  #nome {
+    font-size: 80px;
+  }
+  .photo-wall {
+    flex-direction: column;
+    align-items: center;
+  }
+  .photo {
+    width: 180px;
+    height: 180px;
+  }
+}
+
+@media (max-width: 480px) {
+  #titulo {
+    font-size: 40px;
+  }
+  #nome {
+    font-size: 60px;
+  }
+  .photo {
+    width: 150px;
+    height: 150px;
+  }
+}
+
+/* 💡 Efeito Neon no título */
+@keyframes neonPiscar {
+  0% {
+    text-shadow: 0 0 10px 5px rgba(255, 0, 255, 0.8),
+      0 0 20px 10px rgba(255, 0, 255, 0.6);
+  }
+  50% {
+    text-shadow: 0 0 20px 10px rgba(255, 255, 0, 0.8),
+      0 0 30px 15px rgba(255, 255, 0, 0.6);
+  }
+  100% {
+    text-shadow: 0 0 10px 5px rgba(255, 0, 255, 0.8),
+      0 0 20px 10px rgba(255, 0, 255, 0.6);
+  }
+}
+
+@keyframes subir {
+  from {
+    bottom: -200px;
+  }
+  to {
+    bottom: 100px;
+  }
+}
+
+@keyframes moverAleatorio {
+  0% {
+    transform: translate(0, 0);
+  }
+  100% {
+    transform: translate(30px, 30px);
+  }
+}
+
+/* Fade Out para transição suave de imagens */
+.fade-out {
+  opacity: 0;
+  transition: opacity 1s ease-out;
+}
