@@ -1,22 +1,22 @@
 document.addEventListener("DOMContentLoaded", () => {
   const imagens1 = [
-    "/assets/helo1.jpg",
-    "/assets/helo2.jpg",
-    "/assets/helo3.jpg",
-    "/assets/helo4.jpg",
-    "/assets/helo5.jpg",
-    "/assets/helo6.jpg",
-    "/assets/helo7.jpg",
+    "/Samuelcalix/niver-helo/helo1.jpg",
+    "/Samuelcalix/niver-helo/helo2.jpg",
+    "/Samuelcalix/niver-helo/helo3.jpg",
+    "/Samuelcalix/niver-helo/helo4.jpg",
+    "/Samuelcalix/niver-helo/helo5.jpg",
+    "/Samuelcalix/niver-helo/helo6.jpg",
+    "/Samuelcalix/niver-helo/helo7.jpg",
   ];
 
   const imagens2 = [
-    "/assets/helo2.jpg",
-    "/assets/helo3.jpg",
-    "/assets/helo4.jpg",
-    "/assets/helo5.jpg",
-    "/assets/helo6.jpg",
-    "/assets/helo7.jpg",
-    "/assets/helo1.jpg",
+    "/Samuelcalix/niver-helo/helo2.jpg",
+    "/Samuelcalix/niver-helo/helo3.jpg",
+    "/Samuelcalix/niver-helo/helo4.jpg",
+    "/Samuelcalix/niver-helo/helo5.jpg",
+    "/Samuelcalix/niver-helo/helo6.jpg",
+    "/Samuelcalix/niver-helo/helo7.jpg",
+    "/Samuelcalix/niver-helo/helo1.jpg",
   ];
 
   let index1 = 0;
