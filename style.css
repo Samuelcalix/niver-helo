@@ -88,6 +88,7 @@ body {
   transform: rotate(var(--rotation));
   transition: box-shadow 0.5s ease-in-out;
   overflow: hidden;
+  animation: piscar 2s infinite;
 }
 
 .photo img {
