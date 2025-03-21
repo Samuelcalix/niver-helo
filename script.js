@@ -10,19 +10,26 @@ document.addEventListener("DOMContentLoaded", () => {
   ];
 
   let index1 = 0;
+  const imgPolaroid1 = document.getElementById("img-polaroid1");
+
+  if (!imgPolaroid1) {
+    console.error("Elemento img-polaroid1 não encontrado!");
+    return;
+  }
 
   function trocarImagem() {
-    const imgPolaroid1 = document.getElementById("img-polaroid1");
+    imgPolaroid1.classList.add("fade-out");
 
-    if (imgPolaroid1) {
-      imgPolaroid1.classList.add("fade-out");
+    // Espera a transição antes de mudar a imagem
+    setTimeout(() => {
+      index1 = (index1 + 1) % imagens1.length;
+      imgPolaroid1.src = imagens1[index1];
 
-      setTimeout(() => {
-        index1 = (index1 + 1) % imagens1.length;
-        imgPolaroid1.src = imagens1[index1];
+      // Aguarda um pouco antes de remover o fade-out para suavizar a transição
+      imgPolaroid1.onload = () => {
         imgPolaroid1.classList.remove("fade-out");
-      }, 1000);
-    }
+      };
+    }, 1000); // Tempo igual ao do CSS
   }
 
   setInterval(trocarImagem, 3000);
