@@ -24,7 +24,7 @@ body {
 }
 
 #titulo {
-  font-size: 70px;
+  font-size: 80px;
   font-family: "Teko", sans-serif;
   color: rgb(159, 12, 12);
   animation: piscar 2s infinite;
@@ -33,7 +33,7 @@ body {
 
 #nome {
   font-family: "Mea Culpa", cursive;
-  font-size: 120px;
+  font-size: 135px;
   color: rgb(158, 2, 80);
   text-shadow: 4px 4px 10px rgba(255, 0, 128, 0.6);
   margin-top: 0px;
