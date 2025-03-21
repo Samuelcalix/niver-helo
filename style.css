@@ -61,6 +61,7 @@ body {
   justify-content: center;
   flex-wrap: wrap;
   padding: 30px;
+  box-shadow: 5px rgb(120,100,56);
 }
 
 .photo {
