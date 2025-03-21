@@ -68,6 +68,7 @@ body {
 /* 🔹 Área das fotos estilo Polaroid */
 .photo-wall {
   display: flex;
+  width: 150px;
   gap: 20px;
   justify-content: center;
   flex-wrap: wrap;
