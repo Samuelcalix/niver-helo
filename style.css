@@ -52,6 +52,18 @@ body {
   color: #000000; 
   text-align: justify;
   text-justify: inter-word; /* ou inter-character, dependendo do efeito desejado */
+  margin: 20px;  /* Adiciona espaço em todos os lados */  
+  padding: 15px; /* Para não ficar colado nas bordas internas */
+  text-align: center; /* Mantém o alinhamento harmonioso */
+}
+
+.rodape {
+    position: absolute;
+    bottom: 20px;  /* Mantém uma pequena distância da borda inferior */
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    width: 100%;
 }
 
 @keyframes piscar {
