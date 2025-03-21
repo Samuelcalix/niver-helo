@@ -48,10 +48,9 @@ body {
 
 .mensagem-aniversario {
   font-family: "Winky Sans", sans-serif; /* Fonte bonita */
-  font-size: 15px;
   color: #000000; 
   text-align: justify;
-  text-justify: inter-word; /* ou inter-character, dependendo do efeito desejado */
+  text-justify: inter-character; /* ou inter-character, dependendo do efeito desejado */
   margin: 20px;  /* Adiciona espaço em todos os lados */  
   padding: 15px; /* Para não ficar colado nas bordas internas */
   text-align: center; /* Mantém o alinhamento harmonioso */
