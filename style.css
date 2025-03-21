@@ -40,6 +40,14 @@ body {
   animation: neonPiscar 1.5s infinite alternate;
 }
 
+.mensagem-aniversario {
+  font-family: "Teko", sans-serif; /* Fonte bonita */
+  font-size: 13px;
+  color: #000000; 
+  text-align: justify;
+  text-justify: inter-word; /* ou inter-character, dependendo do efeito desejado */
+}
+
 @keyframes piscar {
   0%,
   50%,
