@@ -1,7 +1,7 @@
 body {
   text-align: center;
   background: linear-gradient(135deg, #fdeff2, #f8cde8, #f4a5c2);
-  height: 100vh;
+  
   font-family: Arial, sans-serif;
   overflow: hidden;
 }
