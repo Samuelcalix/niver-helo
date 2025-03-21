@@ -78,8 +78,8 @@ body {
 }
 
 .photo {
-  width: 180px;
-  height: 180px;
+  width: 140px;
+  height: 140px;
   background: white;
   border-radius: 8px;
   box-shadow: 10px 10px 50px rgba(235, 62, 183, 0.4), 
@@ -123,15 +123,15 @@ body {
     font-size: 60px;
   }
   #nome {
-    font-size: 90px;
+    font-size: 100px;
   }
   .photo-wall {
     flex-direction: column;
     align-items: center;
   }
   .photo {
-    width: 200px;
-    height: 200px;
+    width: 220px;
+    height: 220px;
   }
 }
 
@@ -143,8 +143,8 @@ body {
     font-size: 60px;
   }
   .photo {
-    width: 180px;
-    height: 180px;
+    width: 200px;
+    height: 200px;
   }
 }
 
@@ -164,23 +164,6 @@ body {
   }
 }
 
-@keyframes subir {
-  from {
-    bottom: -200px;
-  }
-  to {
-    bottom: 100px;
-  }
-}
-
-@keyframes moverAleatorio {
-  0% {
-    transform: translate(0, 0);
-  }
-  100% {
-    transform: translate(30px, 30px);
-  }
-}
 
 /* Fade Out para transição suave de imagens */
 .fade-out {
