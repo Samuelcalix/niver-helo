@@ -4,13 +4,14 @@ body {
   height: 100vh;
   font-family: Arial, sans-serif;
   overflow: hidden;
-  background: linear-gradient(45deg, #ff00ff, #ff6600, #00ffcc, #6600ff);
-  background-size: 400% 400%;
-  animation: gradientBG 10s infinite alternate;
+  background: linear-gradient(45deg, #ff69b4, #ff1493, #ffb6c1, #ffc0cb);
+  background-size: 300% 300%;
+  animation: gradientBG 5s infinite alternate;
 }
 
 @keyframes gradientBG {
     0% { background-position: 0% 50%; }
+    50% { background-position: 50% 100%; }
     100% { background-position: 100% 50%; }
 }
 
