@@ -1,22 +1,22 @@
 document.addEventListener("DOMContentLoaded", () => {
   const imagens1 = [
-    "/Samuelcalix/niver-helo/helo1.jpg",
-    "/Samuelcalix/niver-helo/helo2.jpg",
-    "/Samuelcalix/niver-helo/helo3.jpg",
-    "/Samuelcalix/niver-helo/helo4.jpg",
-    "/Samuelcalix/niver-helo/helo5.jpg",
-    "/Samuelcalix/niver-helo/helo6.jpg",
-    "/Samuelcalix/niver-helo/helo7.jpg",
+    "/niver-helo/helo1.jpg",
+    "/niver-helo/helo2.jpg",
+    "/niver-helo/helo3.jpg",
+    "/niver-helo/helo4.jpg",
+    "/niver-helo/helo5.jpg",
+    "/niver-helo/helo6.jpg",
+    "/niver-helo/helo7.jpg",
   ];
 
   const imagens2 = [
-    "/Samuelcalix/niver-helo/helo2.jpg",
-    "/Samuelcalix/niver-helo/helo3.jpg",
-    "/Samuelcalix/niver-helo/helo4.jpg",
-    "/Samuelcalix/niver-helo/helo5.jpg",
-    "/Samuelcalix/niver-helo/helo6.jpg",
-    "/Samuelcalix/niver-helo/helo7.jpg",
-    "/Samuelcalix/niver-helo/helo1.jpg",
+    "/niver-helo/helo2.jpg",
+    "/niver-helo/helo3.jpg",
+    "/niver-helo/helo4.jpg",
+    "/niver-helo/helo5.jpg",
+    "/niver-helo/helo6.jpg",
+    "/niver-helo/helo7.jpg",
+    "/niver-helo/helo1.jpg",
   ];
 
   let index1 = 0;
