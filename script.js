@@ -8,6 +8,18 @@ document.addEventListener("DOMContentLoaded", () => {
     "/niver-helo/helo6.jpg",
     "/niver-helo/helo7.jpg",
   ];
+  
+
+  const imagens2 = [
+    "/niver-helo/helo2.jpg",
+    "/niver-helo/helo4.jpg",
+    "/niver-helo/helo6.jpg",
+    "/niver-helo/helo7.jpg",
+    "/niver-helo/helo3.jpg",
+    "/niver-helo/helo5.jpg",
+    "/niver-helo/helo1.jpg",
+  ];
+
 
   let index1 = 0;
   let index2 = 0;
