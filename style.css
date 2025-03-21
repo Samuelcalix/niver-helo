@@ -7,7 +7,7 @@ body {
 }
 
 .container {
-  margin-top: 50px;
+  margin-top: 10px;
 }
 
 .mea-culpa-regular {
@@ -42,7 +42,7 @@ body {
 
 .mensagem-aniversario {
   font-family: "Teko", sans-serif; /* Fonte bonita */
-  font-size: 13px;
+  font-size: 15px;
   color: #000000; 
   text-align: justify;
   text-justify: inter-word; /* ou inter-character, dependendo do efeito desejado */
