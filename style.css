@@ -1,9 +1,13 @@
 body {
   text-align: center;
   background: linear-gradient(135deg, #fdeff2, #f8cde8, #f4a5c2);
-  height: 100vh;
+  
   font-family: Arial, sans-serif;
   overflow: hidden;
+}
+
+.container {
+  margin-top: 10px;
 }
 
 .mea-culpa-regular {
@@ -37,13 +41,11 @@ body {
 }
 
 .mensagem-aniversario {
-  font-family: "Winky Sans", sans-serif; /* Fonte bonita */
+  font-family: "Teko", sans-serif; /* Fonte bonita */
   font-size: 15px;
   color: #000000; 
   text-align: justify;
   text-justify: inter-word; /* ou inter-character, dependendo do efeito desejado */
-  margin-height: 5px;
-  margin-left: 5px;
 }
 
 @keyframes piscar {
@@ -58,6 +60,18 @@ body {
   75% {
     opacity: 0.5;
   }
+}
+@keyframes piscar {
+  0% {
+    box-shadow: 0 0 5px rgba(255, 255, 255, 0.5);
+  }
+  50% {
+    box-shadow: 0 0 20px rgba(255, 255, 255, 1);
+  }
+  100% {
+    box-shadow: 0 0 5px rgba(255, 255, 255, 0.5);
+  }
+}
 
 /* 🔹 Área das fotos estilo Polaroid */
 .photo-wall {
@@ -76,8 +90,8 @@ body {
   box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
   padding: 10px;
   transform: rotate(var(--rotation));
+  transition: box-shadow 0.5s ease-in-out;
   overflow: hidden;
-  animation: piscar 2s infinite;
 }
 
 .photo img {
