@@ -72,7 +72,8 @@ body {
   justify-content: center;
   flex-wrap: wrap;
   padding: 30px;
-  animation: piscar 1.5s infinite alternate ease-in-out;
+  box-shadow: 5px 5px 15px rgba(242, 0, 255, 0.5);
+  transition: box-shadow 0.5s ease-in-out;
 }
 
 .photo {
