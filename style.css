@@ -68,7 +68,6 @@ body {
 /* 🔹 Área das fotos estilo Polaroid */
 .photo-wall {
   display: flex;
-  width: 150px;
   gap: 20px;
   justify-content: center;
   flex-wrap: wrap;
@@ -129,8 +128,8 @@ body {
     align-items: center;
   }
   .photo {
-    width: 180px;
-    height: 180px;
+    width: 200px;
+    height: 200px;
   }
 }
 
@@ -142,8 +141,8 @@ body {
     font-size: 60px;
   }
   .photo {
-    width: 150px;
-    height: 150px;
+    width: 180px;
+    height: 180px;
   }
 }
 
