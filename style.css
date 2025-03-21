@@ -4,7 +4,7 @@ body {
   height: 100vh;
   font-family: Arial, sans-serif;
   overflow: hidden;
-  background: linear-gradient(45deg, #ff69b4, #ff1493, #ffb6c1, #ffc0cb);
+  background: linear-gradient(45deg, #f6ceee, #fa9bd7, #eb3eb7);
   background-size: 300% 300%;
   animation: gradientBG 5s infinite alternate;
 }
@@ -82,7 +82,8 @@ body {
   height: 180px;
   background: white;
   border-radius: 8px;
-  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.9);
+  box-shadow: 10px 10px 50px rgba(235, 62, 183, 0.4), 
+            -10px -10px 15px rgba(250, 155, 215, 0.3);
   padding: 10px;
   transform: rotate(var(--rotation));
   transition: box-shadow 0.5s ease-in-out;
